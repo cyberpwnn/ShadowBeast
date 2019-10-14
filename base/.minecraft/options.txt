@@ -11,11 +11,11 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:3
+difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Unity", "main"]
+resourcePacks:["Unity","F32.zip","main"]
 incompatibleResourcePacks:[]
 lastServer:localhost
 lang:en_us
@@ -151,7 +151,7 @@ key_simplyjetpacks.keybind.engine:0
 key_simplyjetpacks.keybind.hover:0
 key_simplyjetpacks.keybind.charger:25
 key_simplyjetpacks.keybind.emergencyhover:0
-key_Key.SlashBlade.PS:0
+key_Key.SlashBlade.PS:-98
 key_Key.SlashBlade.SA:47
 key_Key.SlashBlade.LO:42
 key_Key.SlashBlade.CA:29
@@ -160,10 +160,8 @@ key_key.tg.armor_ability:0
 key_key.tg.lense_gui:33
 key_key.switchweaponmode.desc:0
 key_key.toastcontrol.clear:207
-key_veinminer.key.enable:-100
 key_key.narrator:0
 key_smoothfont.key.guiOpen:199
-key_key.carry.desc:42
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -181,6 +179,9 @@ key_key.toggleFlight:0
 key_key.toggleDislocator:0
 key_key.toggle_focus.desc:15
 key_nei.options.keys.gui.botania_corporea_request:0
+key_key.toggleLiquids:0
+key_key.toggleVisible:0
+key_key.carry.desc:42
 key_Options Gui:0
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
@@ -199,9 +200,11 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
-key_key.toggleLiquids:0
-key_key.toggleVisible:0
 key_key.clipboardPaste:210
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_FpsReducer.key.guiOpen:74
 key_[GC] Galaxy Map:50
 key_[GC] Open Spaceship Inventory:34
@@ -210,7 +213,6 @@ key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:0
 key_keywizard.keybind.openKeyboardWizard:65
-key_LevelUpGUI:37
 key_Mo'Bends Menu:211
 key_key.modifier:13
 key_key.submode:0
@@ -219,6 +221,10 @@ key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
 key_key.plustic_brown_magic.desc:24
 key_key.plustic_toggle_tool.desc:51:ALT
+key_key.porterNextDestination:27
+key_key.porterPrevDestination:26
+key_key.debugDumpNBTItem:0
+key_key.debugDumpNBTBlock:0
 key_signpic.key.gui:43
 key_Trade:0
 key_Open GUI:78

@@ -2881,6 +2881,15 @@ false
 '>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.ic2.reinforced_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.malisisdoors.curtain_black</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -3716,6 +3725,9 @@ false
 <tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bq_loot default [save|load], /bq_loot delete [all|&lt;loot_index&gt;]</td></tr>
 <tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
 <tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
+<tr><td><code>command.buildcraftlib.buildcraft.changelog</code></td><td>Displays the latest BC changelog.</td></tr>
+<tr><td><code>command.buildcraftlib.buildcraft.reload</code></td><td>command.buildcraft.reload</td></tr>
+<tr><td><code>command.buildcraftlib.buildcraft.version</code></td><td>Displays the current and latest BC version.</td></tr>
 <tr><td><code>command.carryon.carryon</code></td><td class='error' title='Invalid usage language key!'>/carryon &lt;mode&gt;</td></tr>
 <tr><td><code>command.carryon.reloadscripts</code></td><td class='error' title='Invalid usage language key!'>/reloadscripts</td></tr>
 <tr><td><code>command.chunkpregenerator.pregen</code></td><td class='error' title='Invalid usage language key!'>/pregen Allows you to Pregenerate Worlds, Control Structures, Delete Chunks and other things</td></tr>
@@ -3725,11 +3737,13 @@ false
 <tr><td><code>command.cofhworld.cofhworld.list</code></td><td>Lists all CoFHWorld features</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
+<tr><td><code>command.compactmachines3.compactmachines3</code></td><td>/compactmachines3 [subcommand, leave empty for list of commands]</td></tr>
 <tr><td><code>command.conarm.leveluparmor</code></td><td class='error' title='Invalid usage language key!'>/levelupArmor while holding a tinker armor in your hand</td></tr>
 <tr><td><code>command.cosmeticarmorreworked.clearcosarmor</code></td><td>/clearCosArmor [player]</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | bugs | conflict | copy | discord | docs | dumpzs | entities | exportzs | hand | help | inventory | liquids | log | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | bugs | conflict | copy | discord | docs | dumpzs | entities | exportzs | gases | hand | help | infuseTypes | inventory | liquids | log | mekrecipes | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
+<tr><td><code>command.deepresonance.drgen</code></td><td class='error' title='Invalid usage language key!'>drgen &lt;subcommand&gt; &lt;args&gt; (try 'drgen help' for more info)</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
 <tr><td><code>command.difficulty</code></td><td>/difficulty &lt;new difficulty&gt;</td></tr>
 <tr><td><code>command.draconicevolution.de_upgrade</code></td><td class='error' title='Invalid usage language key!'>/de_upgrade</td></tr>
@@ -3839,7 +3853,7 @@ false
 <tr><td><code>command.function</code></td><td>/function &lt;name&gt; [if &lt;selector&gt;|unless &lt;selector&gt;]</td></tr>
 <tr><td><code>command.galacticraftcore.dimensiontp</code></td><td class='error' title='Invalid usage language key!'>/dimensiontp [&lt;player&gt;]</td></tr>
 <tr><td><code>command.galacticraftcore.gcastrominer</code></td><td class='error' title='Invalid usage language key!'>/gcastrominer [show|reset|set&lt;number&gt;] &lt;playername&gt;</td></tr>
-<tr><td><code>command.galacticraftcore.gcenergyunits</code></td><td class='error' title='Invalid usage language key!'>/gcenergyunits [gJ|RF]</td></tr>
+<tr><td><code>command.galacticraftcore.gcenergyunits</code></td><td class='error' title='Invalid usage language key!'>/gcenergyunits [gJ|MJ|EU|J|RF]</td></tr>
 <tr><td><code>command.galacticraftcore.gchelp</code></td><td class='error' title='Invalid usage language key!'>/gchelp</td></tr>
 <tr><td><code>command.galacticraftcore.gchouston</code></td><td class='error' title='Invalid usage language key!'>/gchouston [&lt;player&gt;]</td></tr>
 <tr><td><code>command.galacticraftcore.gcinv</code></td><td class='error' title='Invalid usage language key!'>/gcinv [save|restore|drop|clear] &lt;playername&gt;</td></tr>
@@ -3851,9 +3865,6 @@ false
 <tr><td><code>command.galacticraftcore.ssuninvite</code></td><td class='error' title='Invalid usage language key!'>/ssuninvite &lt;player&gt;</td></tr>
 <tr><td><code>command.gamemode</code></td><td>/gamemode &lt;mode&gt; [player]</td></tr>
 <tr><td><code>command.gamerule</code></td><td>/gamerule &lt;rule name&gt; [value]</td></tr>
-<tr><td><code>command.gendustry.dumpalleles</code></td><td>dumpalleles</td></tr>
-<tr><td><code>command.gendustry.givesample</code></td><td>/givesample &lt;species&gt; &lt;chromosome&gt; &lt;allele&gt;</td></tr>
-<tr><td><code>command.gendustry.givetemplate</code></td><td>/givetemplate &lt;uid&gt;</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
 <tr><td><code>command.hammercore.hc_buildstr</code></td><td class='error' title='Invalid usage language key!'>Use /hc_buildstr &lt;structure, use TAB&gt;<br>/hc_buildstr &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;structure, use TAB&gt;</td></tr>
 <tr><td><code>command.hammercore.hc_export</code></td><td class='error' title='Invalid usage language key!'>/hc_export &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;name&gt; [save air]</td></tr>
@@ -3866,6 +3877,7 @@ false
 <tr><td><code>command.hammercore.hc_tpx</code></td><td class='error' title='Invalid usage language key!'>Used to tp between 2 points on server. Can be used between dimensions</td></tr>
 <tr><td><code>command.hats.hats</code></td><td class='error' title='Invalid usage language key!'>/hats           type /hats for full list.</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
+<tr><td><code>command.ic2.ic2</code></td><td class='error' title='Invalid usage language key!'>/ic2 uu-world-scan &lt;tiny|small|medium|large&gt; | debug (dumpUuValues | resolveIngredient &lt;name&gt; | dumpTextures &lt;name&gt; &lt;size&gt; | dumpLargeGrids | enet (logIssues | logUpdates) (true|false)) | currentItem | itemNameWithVariant | giveCrop &lt;owner&gt; &lt;name&gt; &lt;growth (1-31)&gt; &lt;gain (1-31)&gt; &lt;resistance (1-31)&gt;</td></tr>
 <tr><td><code>command.immersiveengineering.ie.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.help.clearshaders</code></td><td class='error' title='Invalid usage language key!'>/ie clearshaders [player name]</td></tr>
 <tr><td><code>command.immersiveengineering.ie.help.mineral</code></td><td class='error' title='Invalid usage language key!'>Use "/ie mineral help" for more information</td></tr>
@@ -3887,6 +3899,16 @@ false
 <tr><td><code>command.login_shield.lgs.sit</code></td><td>commands.lgs.sit.usage</td></tr>
 <tr><td><code>command.login_shield.lgs.tp</code></td><td>commands.lgs.tp.usage</td></tr>
 <tr><td><code>command.me</code></td><td>/me &lt;action ...&gt;</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.clear</code></td><td>Remove all chunks from watch list for chunk loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.flush</code></td><td>cmd.mek.chunk.flush.usage</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.unwatch</code></td><td>Remove caller's chunk from watch list for chunk loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.chunk.watch</code></td><td>Add caller's chunk to watch list for loading/unloading events</td></tr>
+<tr><td><code>command.mekanism.mek.debug</code></td><td></td></tr>
+<tr><td><code>command.mekanism.mek.testrules</code></td><td>Setup world rules for testing (no mob spawning, daylight cycle or weather)</td></tr>
+<tr><td><code>command.mekanism.mek.tp</code></td><td>Teleport to new coordinates, saving last position on a stack</td></tr>
+<tr><td><code>command.mekanism.mek.tpop</code></td><td>Return to last position on stack</td></tr>
+<tr><td><code>command.mekanism.mtp</code></td><td>Teleport to new coordinates, saving last position on a stack</td></tr>
+<tr><td><code>command.mekanism.mtpop</code></td><td>Return to last position on stack</td></tr>
 <tr><td><code>command.morpheus.morpheus</code></td><td class='error' title='Invalid usage language key!'>/morpheus &lt;alert : version&gt; | /morpheus percent &lt;percentage&gt; | /morpheus disable &lt;dimension number&gt;</td></tr>
 <tr><td><code>command.openblocks.flimflam</code></td><td class='error' title='Invalid usage language key!'>flimflam &lt;player&gt; [&lt;effect&gt;]</td></tr>
 <tr><td><code>command.openblocks.luck</code></td><td class='error' title='Invalid usage language key!'>luck &lt;player&gt; [&lt;amount&gt;]</td></tr>
@@ -3909,7 +3931,6 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 </td></tr>
 <tr><td><code>command.openmods.om_source_s</code></td><td class='error' title='Invalid usage language key!'>om_source_s class &lt;class name&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
-<tr><td><code>command.pewter.pewter</code></td><td class='error' title='Invalid usage language key!'>/pewter</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
 <tr><td><code>command.practicallogistics2./logistics resetregistry</code></td><td class='error' title='Invalid usage language key!'>/logistics resetRegistry</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
@@ -3953,6 +3974,10 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.reccomplex.#write</code></td><td class='error' title='Invalid usage language key!'>#write §r §e&lt;file type&gt;§r §e[resource expression]§r... --§bd§rirectory §e[directory]§r</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
+<tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftdb</code></td><td class='error' title='Invalid usage language key!'>rftdb &lt;subcommand&gt; &lt;args&gt; (try 'rftdb help' for more info)</td></tr>
+<tr><td><code>command.rftools.rftshape</code></td><td class='error' title='Invalid usage language key!'>rftshape &lt;subcommand&gt; &lt;args&gt; (try 'rftshape help' for more info)</td></tr>
+<tr><td><code>command.rftools.rfttp</code></td><td class='error' title='Invalid usage language key!'>rfttp &lt;subcommand&gt; &lt;args&gt; (try 'rfttp help' for more info)</td></tr>
 <tr><td><code>command.rpreload</code></td><td class='error' title='Invalid usage language key!'>/rpreload</td></tr>
 <tr><td><code>command.ruins.parseruin</code></td><td class='error' title='Invalid usage language key!'>/parseruin TEMPLATENAME sets the Ruins World2Template parser to wait for the next block you break, which will be considered part of the template baseplate</td></tr>
 <tr><td><code>command.ruins.testruin</code></td><td class='error' title='Invalid usage language key!'>/testruin TEMPLATENAME [X Y Z ROTATION] manually spawns the target Ruin of the templateparser folder, [] optional</td></tr>
@@ -3983,7 +4008,6 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.thaumcraft.thaumcraft</code></td><td class='error' title='Invalid usage language key!'>/thaumcraft &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.thaumictinkerer.dumpenchants</code></td><td>dumpenchants</td></tr>
 <tr><td><code>command.thaumictinkerer.refreshmulti</code></td><td>refreshmulti</td></tr>
-<tr><td><code>command.tickdynamic.tickdynamic</code></td><td class='error' title='Invalid usage language key!'>tickdynamic [tps, listworlds, world, identify, reload, reloadgroups, enabled, help]</td></tr>
 <tr><td><code>command.time</code></td><td>/time &lt;set|add|query&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.tinkertoolleveling.leveluptool</code></td><td class='error' title='Invalid usage language key!'>/levelupTool while holding a tinker tool in your hand</td></tr>
 <tr><td><code>command.title</code></td><td>/title &lt;player&gt; title|subtitle|actionbar|clear|reset|times ...</td></tr>
